@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lato:ital,wght@1,300&family=PT+Serif:ital@0;1&display=swap');
+
+.{
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCF0CC;
+    font-family: 'Lato', sans-serif;
+    margin: 0; 
+    
+}
+nav {
+    background-color: #861657;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+nav a{
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+header{
+    background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80);
+    background-size: cover  ;
+    background-position: center center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+header::after{
+    content: '';
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+header *{
+    position: relative;
+    z-index: 1;
+}
+header h1{
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 0;  
+}
+
+header p{
+    font-size: 30px;
+    margin: 0;
+}
+section{
+    text-align: center;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+h3#rev{
+    font-size: 20pt;
+    font-weight: 150pt;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+#projects{
+    background-color: #861657;
+    border-radius: 30px;
+    width: 400px;
+    margin-left: auto ;
+    margin-right: auto;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
+
+#rev{
+    background-color: #861657;
+    border-radius: 30px;
+    width: 400px;
+    margin-left: auto ;
+    margin-right: auto;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
+#contact{
+    background-color: #861657;
+    border-radius: 30px;
+    width: 400px;
+    margin-left: auto ;
+    margin-right: auto;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+h2{
+    text-align: center;
+}
+footer{
+    background-color: #861657;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
